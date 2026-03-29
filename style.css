@@ -3,7 +3,7 @@ nav {
     justify-content: space-between;
     align-items: center;
     padding: 5px 25px;
-    background-color: #F5F5F0;
+    background-color: #000b3d; 
 }
 
 .nav-links ul {
@@ -14,6 +14,18 @@ nav {
 
 .nav-links ul li a {
     text-decoration: none;
-    color: #0D1B4B;
+    color: #f8f8ff;
     font-size: 20px;
+}
+
+.logo img {
+    width: 90px;
+    height: 90px;
+    object-fit: contain;
+    mix-blend-mode: screen;
+}
+
+.nav-links ul li a:hover {
+    color: #C9A84C;
+    transition: color 0.3s ease;
 }
