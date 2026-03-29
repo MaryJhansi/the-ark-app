@@ -29,3 +29,39 @@ nav {
     color: #C9A84C;
     transition: color 0.3s ease;
 }
+
+.hamburger {
+    display: none;
+    cursor: pointer;
+}
+
+.bar {
+    display: block;
+    width: 25px;
+    height: 3px;
+    background-color: #f8f8ff;
+    margin: 5px 0;
+}
+
+@media (max-width: 768px) {
+    /* styles here only apply on screens 768px wide or smaller */
+
+    .hamburger {
+        display: block;
+    }
+
+    .nav-links {
+        display: none;
+        width: 100;
+    }
+
+    .nav-link ul {
+        flex-direction: column;
+        gap: 0;
+    }
+
+    .nav-link ul li a {
+        display: block;
+        padding: 15px 25px;
+    }
+}
