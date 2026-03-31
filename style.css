@@ -5,6 +5,65 @@
     --purple: #6b2fa0;
 }
 
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+.hero {
+    height: 100vh;
+    background: linear-gradient(135deg, #6b2fa0, #000b3d );
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 80px;
+    padding-bottom: 250px; /* ← nudges content up */
+    text-align: left;
+}
+
+
+.hero-content {
+    max-width: 600px;
+}
+
+.hero-content h1 {
+    font-size: 3rem;
+    color: var(--white);
+    margin-bottom: 20px;
+    font-family: 'Playfair Display', serif;
+}
+
+.btn {
+    background-color: var(--gold);
+    color: var(--navy);
+    padding: 12px 30px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.btn:hover {
+    background-color: var(--navy);
+    color: var(--white);
+    transition: all 0.3s ease;
+}
+
+.hero-content p {
+    font-size: 1.2rem;
+    color: var(--white);
+    margin-bottom: 30px;
+}
+
+.hero-tag {
+    display: inline-block;
+    background-color: var(--gold);
+    color: var(--navy);
+    padding: 6px 16px;
+    border-radius: 20px;
+    font-size: 0.9rem;
+    margin-bottom: 20px;
+    font-family: 'Lato', sans-serif;
+}
+
 nav {
     display: flex;
     justify-content: space-between;
