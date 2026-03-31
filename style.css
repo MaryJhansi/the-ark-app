@@ -1,9 +1,16 @@
+:root {
+    --navy: #000b3d;
+    --gold: #C9A84C;
+    --white: #f8f8ff;
+    --purple: #6b2fa0;
+}
+
 nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 5px 25px;
-    background-color: #000b3d;
+    background-color: var(--navy);
     position: relative;
 }
 
