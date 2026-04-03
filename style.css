@@ -10,19 +10,21 @@ body {
 }
 
 .hero {
-    height: 100vh;
-    background: linear-gradient(135deg, #6b2fa0, #000b3d );
+    min-height: calc(100vh - 100px); /* subtracts navbar height */
+    background: linear-gradient(135deg, var(--purple), var(--navy));
     display: flex;
-    justify-content: flex-start;
+    justify-content: space-between;
     align-items: center;
-    padding-left: 80px;
-    padding-bottom: 250px; /* ← nudges content up */
+    padding: 0 80px; 
     text-align: left;
+    gap: 40px;
+    box-sizing: border-box;   /* ← ensures padding doesn't overflow */
 }
 
 
 .hero-content {
-    max-width: 600px;
+    flex: 1;        /* takes up equal space on the left */
+    max-width: 550px;
 }
 
 .hero-content h1 {
@@ -32,6 +34,23 @@ body {
     font-family: 'Playfair Display', serif;
 }
 
+.hero-image {
+    flex: 1;                /* takes up equal space on the right */
+    display: flex;
+    justify-content: flex-end;  /* anchors image to the right edge */
+    align-items: center;
+}
+
+.hero-image img {
+    width: 100%;
+    max-width: 480px;
+    max-height: 45vh;  /* ← tighter constraint */
+    height: auto;
+    object-fit: cover; 
+    border-radius: 30px;
+    display: block; 
+}
+
 .btn {
     background-color: var(--gold);
     color: var(--navy);
@@ -39,12 +58,12 @@ body {
     text-decoration: none;
     border-radius: 5px;
     font-size: 1rem;
+    transition: all 0.3s ease; /* move here*/
 }
 
 .btn:hover {
     background-color: var(--navy);
     color: var(--white);
-    transition: all 0.3s ease;
 }
 
 .hero-content p {
@@ -122,7 +141,7 @@ nav {
         top: 100px;
         right: 0;
         width: 50%;
-        background-color: transparent;
+        background-color: var(--purple);
         padding: 20px 0;
     }
 
@@ -138,7 +157,7 @@ nav {
     .nav-links ul li a {
         display: block;
         padding: 15px 25px;
-        color: #C9A84C;
+        color: var(--white);
     }
 
     .nav-links ul li a:hover {
@@ -146,4 +165,14 @@ nav {
         transition: color 0.3s ease;
     }
 
+    .hero {
+        flex-direction: column;
+        padding: 40px 20px;
+        text-align: center;
+    }
+
+    .hero-image {
+        justify-content: center;
+    }
 }
+
