@@ -48,7 +48,25 @@ A daily learning journal documenting my progress building The Ark website.
 
 ---
 
-## Day 3 — (fill in today's date)
+## Day 3 — April 1, 2026
+
+### ✅ What I Built
+- About section with centered brand story
+- Three value cards (Quality, Creativity, Joy)
+- Hover lift effect on cards
+
+### 🧠 What I Learned
+- `line-height` for readable body text
+- `transform: translateY()` for hover effects
+- Git pull before push when working across machines
+- Importance of matching font imports with usage
+
+### 🚧 Challenges
+- Montserrat font not loading — font wasn't imported
+- Git push rejected — fixed with `git pull` first
+- Working across two machines — learned to always pull first
+
+## Day 4 - Date
 
 ### ✅ What I Built
 - 
