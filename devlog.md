@@ -66,6 +66,7 @@ A daily learning journal documenting my progress building The Ark website.
 - Git push rejected — fixed with `git pull` first
 - Working across two machines — learned to always pull first
 
+---
 ## Day 4 - Date
 
 ### ✅ What I Built
