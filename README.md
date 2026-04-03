@@ -12,9 +12,9 @@ gifts, toys, books and craft shop.
 ## ✅ Completed Sections
 - [x] Navbar (responsive with hamburger menu)
 - [x] Hero Section (gradient, animated GIF, CTA button)
+- [x] About Section (brand story, value cards)
 
 ## 🚧 In Progress
-- [ ] About Section
 - [ ] Categories Section
 - [ ] Featured Products
 - [ ] Contact Section (with WhatsApp)
