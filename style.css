@@ -9,6 +9,52 @@ body {
     font-family: 'Lato', sans-serif;
 }
 
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 25px;
+    background-color: var(--navy);
+    position: relative;
+}
+
+.nav-links ul {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+
+.nav-links ul li a {
+    text-decoration: none;
+    color: #f8f8ff;
+    font-size: 20px;
+}
+
+.logo img {
+    width: 90px;
+    height: 90px;
+    object-fit: contain;
+    mix-blend-mode: screen;
+}
+
+.nav-links ul li a:hover {
+    color: #C9A84C;
+    transition: color 0.3s ease;
+}
+
+.hamburger {
+    display: none;
+    cursor: pointer;
+}
+
+.bar {
+    display: block;
+    width: 25px;
+    height: 3px;
+    background-color: #f8f8ff;
+    margin: 5px 0;
+}
+
 .hero {
     min-height: calc(100vh - 100px); /* subtracts navbar height */
     background: linear-gradient(135deg, var(--purple), var(--navy));
@@ -83,50 +129,60 @@ body {
     font-family: 'Lato', sans-serif;
 }
 
-nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 5px 25px;
-    background-color: var(--navy);
-    position: relative;
+.about {
+    background-color: var(--white);
+    text-align: center;
+    padding: 80px;
 }
 
-.nav-links ul {
-    list-style: none;
+.about-content h2 {
+    font-family: "Playfair Display", serif;
+    font-size: 2.5rem;
+    color: var(--navy);
+    margin-bottom: 20px;
+}
+
+.about-content p {
+    font-size: 1.1rem;
+    color: #555;
+    max-width: 700px;
+    margin: 0 auto 50px auto;
+    line-height: 1.8; /* Makes it easier to read text */
+}
+
+.about-values {
     display: flex;
+    justify-content: center;
     gap: 30px;
 }
 
-.nav-links ul li a {
-    text-decoration: none;
-    color: #f8f8ff;
-    font-size: 20px;
+.value-card {
+    background-color: var(--navy);
+    color: var(--white);
+    padding: 40px 30px;
+    border-radius: 12px;
+    flex: 1;
+    max-width: 250px;
 }
 
-.logo img {
-    width: 90px;
-    height: 90px;
-    object-fit: contain;
-    mix-blend-mode: screen;
-}
-
-.nav-links ul li a:hover {
-    color: #C9A84C;
-    transition: color 0.3s ease;
-}
-
-.hamburger {
-    display: none;
-    cursor: pointer;
-}
-
-.bar {
+.value-card span {
+    font-size: 2.5rem;
     display: block;
-    width: 25px;
-    height: 3px;
-    background-color: #f8f8ff;
-    margin: 5px 0;
+    margin-bottom: 15px;
+}
+
+.value-card h3 {
+    font-family: 'Montserrat', serif;
+    font-size: 1.4rem;
+    color: var(--gold);
+    margin-bottom: 10px;
+}
+
+.value-card:hover {
+    transform: translateY(-5px); /* Moves the card 5px upward on hover. Creates a satisfying "lift" effect */
+    transition: transform 0.3s ease;
+    background-color: var(--purple);
+    cursor: pointer;
 }
 
 @media (max-width: 768px) {
