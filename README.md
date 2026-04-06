@@ -8,6 +8,7 @@ gifts, toys, books and craft shop.
 - CSS3 (Flexbox, CSS Variables, Media Queries)
 - JavaScript (DOM Manipulation)
 - Google Fonts (Playfair Display + Lato)
+- Canva (logo and hero GIF design)
 
 ## ✅ Completed Sections
 - [x] Navbar (responsive with hamburger menu)
