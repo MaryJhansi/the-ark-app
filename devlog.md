@@ -67,7 +67,30 @@ A daily learning journal documenting my progress building The Ark website.
 - Working across two machines — learned to always pull first
 
 ---
-## Day 4 - Date
+## Day 4 — April 6, 2026
+
+### ✅ What I Built
+- Updated value card icons (🏅 Quality, 🌟 Creativity, 🌞 Joy)
+- Adjusted hero image size (max-width: 1000px, max-height: 65vh)
+
+### 🧠 What I Learned
+- Commit messages should start with a present tense verb
+  e.g. "Update icons" not "Changed icons"
+- Small tweaks to completed sections can be committed 
+  directly to master — no need for a new branch
+- `max-height: vh` units control image height 
+  relative to screen size
+
+### 🚧 Challenges
+- Hero image felt visually off — adjusted sizing 
+  until it felt balanced
+- Learning to write better commit messages
+
+### 💡 Tip I Learned
+> Small style fixes → commit to master directly
+> New sections → always create a feature branch
+
+---
 
 ### ✅ What I Built
 - 
