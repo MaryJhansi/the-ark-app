@@ -102,3 +102,30 @@ A daily learning journal documenting my progress building The Ark website.
 - 
 
 ---
+## Day 5 — May 18, 2026
+
+### ✅ What I Built
+
+* Refined The Ark into a professional business landing page
+* Removed ecommerce and Add to Cart functionality
+* Added bulk-order-focused sections
+* Added WhatsApp lead generation CTA
+* Improved testimonials and category sections
+* Added social media placeholder interactions
+* Improved branding and business positioning
+
+### 🧠 What I Learned
+
+* Difference between ecommerce websites and lead generation websites
+* Importance of UX clarity and business-focused design
+* Structuring websites around customer goals
+* Better Git commit practices
+* Using AI tools like Claude to accelerate frontend workflows
+
+### 🚧 Challenges
+
+* Understanding which website sections were unnecessary
+* Balancing creative design with professional business branding
+* Refining layouts for cleaner user experience
+* Managing Git commits and branches correctly
+
