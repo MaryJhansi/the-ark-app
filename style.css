@@ -563,15 +563,120 @@ nav {
 .contact-map {
     border-radius: 16px;
     overflow: hidden;
-    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.11);
-    min-height: 420px;
+    box-shadow: 0 12px 40px rgba(0, 0, 0, 0.14);
+    display: flex;
+    flex-direction: column;
+    background: #fff;
+}
+
+.map-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px 22px;
+    background: var(--navy);
+}
+
+.map-header-left {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+
+.map-store-label {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.05rem;
+    font-weight: 700;
+    color: #fff;
+    letter-spacing: 0.3px;
+}
+
+.map-area-label {
+    font-size: 0.75rem;
+    color: rgba(255, 255, 255, 0.6);
+    font-family: 'Montserrat', sans-serif;
+}
+
+.map-directions-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    padding: 8px 18px;
+    background: var(--purple);
+    color: #fff !important;
+    text-decoration: none !important;
+    border-radius: 8px;
+    font-size: 0.78rem;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 0.4px;
+    transition: background 0.2s ease, transform 0.15s ease;
+    white-space: nowrap;
+}
+
+.map-directions-btn:hover {
+    background: #5c3ba8;
+    transform: translateY(-1px);
+    color: #fff !important;
+}
+
+.map-frame-wrapper {
+    flex: 1;
+    min-height: 360px;
+    position: relative;
 }
 
 .contact-map iframe {
     display: block;
     width: 100%;
     height: 100%;
-    min-height: 420px;
+    min-height: 360px;
+}
+
+.map-footer {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    padding: 14px 22px;
+    background: #fafafa;
+    border-top: 1px solid #eee;
+}
+
+.map-footer-pin {
+    font-size: 0.9rem;
+    flex-shrink: 0;
+    margin-top: 1px;
+}
+
+.map-footer p {
+    font-size: 0.8rem;
+    color: #666;
+    line-height: 1.55;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.get-directions-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    margin-top: 10px;
+    padding: 7px 16px;
+    background: transparent;
+    color: var(--purple) !important;
+    border: 1.5px solid var(--purple);
+    border-radius: 7px;
+    font-size: 0.78rem;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none !important;
+    letter-spacing: 0.4px;
+    transition: background 0.2s ease, color 0.2s ease;
+}
+
+.get-directions-link:hover {
+    background: var(--purple);
+    color: #fff !important;
 }
 
 /* ── NEWSLETTER ── */
@@ -909,6 +1014,8 @@ footer {
 
     .contact          { padding: 60px 24px; }
     .contact-grid     { grid-template-columns: 1fr; gap: 36px; }
+    .map-header       { flex-wrap: wrap; gap: 12px; }
+    .map-directions-btn { width: 100%; justify-content: center; }
 
     .newsletter       { padding: 60px 24px; }
     .newsletter-content h2 { font-size: 1.9rem; }
