@@ -129,3 +129,23 @@ A daily learning journal documenting my progress building The Ark website.
 * Refining layouts for cleaner user experience
 * Managing Git commits and branches correctly
 
+## Day 6 — May 20, 2026
+
+### ✅ What I Built
+- Tagged v1.0 release on GitHub
+- Updated README with live site link and version history
+- Set up feature/netlify-backend branch for v2.0 development
+
+### 🧠 What I Learned
+- How to create and push Git tags (`git tag -a v1.0`)
+- Git tags permanently mark a version in history
+- Difference between a branch (ongoing work) and a tag (a snapshot)
+- Versioning strategy: master = stable, feature branch = development
+
+### 🚧 Challenges
+- Understanding when to work on master vs feature branch
+- Realising favicon was missed before deployment (fixing in v2.0)
+
+### 💡 Tip I Learned
+> Always tag your releases — it creates a permanent 
+> snapshot you can return to anytime.

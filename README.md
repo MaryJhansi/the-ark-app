@@ -87,26 +87,22 @@ This project is part of my frontend development learning journey where I practic
 
 Planned future enhancements:
 
-* Live deployment using Netlify
+* Custom domain connection (thearkblr.in)
+* Favicon / browser tab logo
+* Working inquiry and contact form
+* EmailJS integration for automated email responses
+* Newsletter subscription with welcome email
 * Real social media integrations
 * Improved SEO
-* Gallery enhancements
 * Performance optimization
-* Inquiry/contact form backend
-* Additional animations and polish
 
 ---
 
-## 📓 Development Log
+## 🚀 Deployment
 
-Daily progress and learning notes are documented in:
+| Version | Description | Status |
+|---------|-------------|--------|
+| v1.0 | Full frontend launch — all sections live on Netlify | ✅ Live |
+| v2.0 | Forms, EmailJS, custom domain (thearkblr.in) | 🔧 In Progress |
 
-`devlog.md`
-
----
-
-## 👩‍💻 Developer
-
-Created by [MaryJhansi](https://github.com/MaryJhansi)
-
-Building real-world frontend projects while learning in public 🚀
+**Live Site:** [https://the-ark-blr.netlify.app](https://the-ark-blr.netlify.app)
