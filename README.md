@@ -106,3 +106,14 @@ Planned future enhancements:
 | v2.0 | Forms, EmailJS, custom domain (thearkblr.in) | 🔧 In Progress |
 
 **Live Site:** [https://the-ark-blr.netlify.app](https://the-ark-blr.netlify.app)
+
+## Updated: 24th June 2026
+## 🚀 Deployment
+
+| Version | Description | Status |
+|---------|-------------|--------|
+| v1.0 | Full frontend launch — all sections live on Netlify | ✅ Live |
+| v1.1 | Favicon, custom domain (thearkblr.in), SSL/HTTPS | ✅ Live |
+| v2.0 | Forms, EmailJS, newsletter functionality | 🔧 In Progress |
+
+**Live Site:** [https://thearkblr.in](https://thearkblr.in)

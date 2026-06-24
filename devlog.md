@@ -129,7 +129,7 @@ A daily learning journal documenting my progress building The Ark website.
 * Refining layouts for cleaner user experience
 * Managing Git commits and branches correctly
 
-## Day 6 — May 20, 2026
+## June 24, 2026
 
 ### ✅ What I Built
 - Tagged v1.0 release on GitHub
@@ -149,3 +149,39 @@ A daily learning journal documenting my progress building The Ark website.
 ### 💡 Tip I Learned
 > Always tag your releases — it creates a permanent 
 > snapshot you can return to anytime.
+
+## Day 7 — May 21, 2026
+
+### ✅ What I Built
+- Added custom favicon (gold pen nib icon, designed in Canva)
+- Connected custom domain thearkblr.in to Netlify
+- Enabled HTTPS/SSL — site now live at https://thearkblr.in
+- Regenerated expiring GitHub Personal Access Token
+- Replaced favicon with refined the-ark.png logo version
+
+### 🧠 What I Learned
+- Favicons need to be small (512x512px works, browser scales it down) 
+  and simple — full logos with text don't read well at tiny sizes
+- How to design a circular favicon in Canva using a background shape
+- DNS records (A record + CNAME) connect a domain to a hosting provider
+- The difference between A records, CNAME records, and MX records — 
+  and why MX/email records must never be touched when updating website DNS
+- DNS propagation isn't instant — it can take minutes to hours to verify worldwide
+- Netlify automatically issues free SSL certificates once DNS is verified
+- GitHub Personal Access Tokens expire and must be regenerated periodically
+- Always paste tokens directly into the terminal/Git prompt — never into 
+  chat or notes, since a token shown elsewhere should be treated as compromised
+
+### 🚧 Challenges
+- Found my domain was actually managed through Squarespace Domains 
+  (not Google Domains directly) — took a few tries to find the right DNS panel
+- Accidentally typed `git push original` instead of `git push origin` — 
+  small typos can cause confusing errors
+- Committed changes to the wrong branch (master instead of feature branch) 
+  — but caught it with `git status` before pushing
+- SSL certificate didn't provision on the first try — just needed to wait 
+  for DNS to fully propagate before retrying
+
+### 💡 Tip I Learned
+> Always run `git status` before pushing if something seems off — 
+> it tells you exactly which branch you're on and what's staged.
